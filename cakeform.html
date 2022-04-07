@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>Cake Form</title>
+    <script type="text/javascript" src="js/formcalculations.js"></script>
+    <link href="styles/cakeform.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload='hideTotal()'>
+    
+    <div id="wrap">
+        
+
+        <form action="" id="cakeform" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+                <div class="form-container">
+                <div class="electricity"></div>
+                <h2>Crypto</h2>
+                </div>
+               <fieldset>
+                <legend>Calculate Cryptocurrency Carbon Emission</legend>
+               
+            <div>
+                <label class="inlinelabel">Select your cryptocurrency :</label>
+                
+                <select id="filling" name='filling' onchange="calculateTotal()">
+                <option value="None">Select Crypto</option>
+                <option value="BTC">Bitcoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="MATIC">Polygon</option>
+                <option value="BCH">Bitcoin Cash</option>
+                <option value="LTC">Litecoin</option>
+                <option value="XMR">Monero</option>
+                <option value="DASH">DASH</option>
+                <option value="ETC">Ethereum Classic</option>
+                <option value="ZEC">Zcash</option>
+                <option value="DOGE">Dogecoin</option>
+                <option value="DCR">Decred</option>
+                <option value="BSV">Bitcoin SV</option>
+               </select>
+            </div>
+                <br/>
+               
+               
+            <div>
+                <label class="inlinelabel" for='includeinscription'>Number of transaction :</label>
+                
+                <input id='dist' type='number' placeholder='Number of Tx' onchange="calculateTotal()"/>
+            </div>
+            <br/>
+                <div id="totalPrice"></div>
+
+
+                
+                
+                </fieldset>
+            </div>
+            
+        	
+           
+        </div>  
+       </form>
+	</div><!--End of wrap-->
+
+</body>
+</html>
