@@ -8,8 +8,8 @@ You are free to use the code in Commercial or non-commercial projects
 
  var filling_prices= new Array();
  filling_prices["None"]=0;
- filling_prices["BTC"]=1194;
- filling_prices["ETH"]=147.02;
+ filling_prices["BTC"]=1226.71;
+ filling_prices["ETH"]=145.64;
  filling_prices["MATIC"]=0.43;
  filling_prices["BCH"]=453.93;
  filling_prices["LTC"]=487.74;
@@ -17,7 +17,7 @@ You are free to use the code in Commercial or non-commercial projects
  filling_prices["DASH"]=110.65;
  filling_prices["ETC"]=128.09;
  filling_prices["ZEC"]=145.09;
- filling_prices["DOGE"]=466.13;
+ filling_prices["DOGE"]=469.42;
  filling_prices["DCR"]=65.15;
  filling_prices["BSV"]=355.38;
  
